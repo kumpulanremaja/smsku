@@ -1,6 +1,3 @@
-#Author: KANG-NEWBIE
-#Contact: t.me/kang_nuub
-#SPECIAL THANKS TO WIDHI
 
 import mechanize,time,os
 from bs4 import BeautifulSoup as BS
@@ -71,5 +68,4 @@ try:
 			exit('sampai jumpa lagi...')
 except KeyboardInterrupt:
 	print('\nErr: KeyboardInterrupt')
-except Exception as E:
-	print(f'Err: {E}')
+
